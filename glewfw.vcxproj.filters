@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{09ff455c-fe50-4099-8c25-891746f565b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src_glfw">
+      <UniqueIdentifier>{9e9a3ee4-9da3-48f0-ad37-f582e491224f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src_glew">
+      <UniqueIdentifier>{6c2cbabb-96b8-48b9-b160-be70f8d2949c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src_glfw\win32">
+      <UniqueIdentifier>{e737ce86-06ed-4fe5-b2a3-75d755c498d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\GL\glew.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\glewfw.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\glfw.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\glxew.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\wglew.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src_glfw\internal.h">
+      <Filter>src_glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="src_glfw\win32\platform.h">
+      <Filter>src_glfw\win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src_glew\glew.c">
+      <Filter>src_glew</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\enable.c">
+      <Filter>src_glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\fullscreen.c">
+      <Filter>src_glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\glext.c">
+      <Filter>src_glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\image.c">
+      <Filter>src_glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\init.c">
+      <Filter>src_glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\input.c">
+      <Filter>src_glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\joystick.c">
+      <Filter>src_glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\stream.c">
+      <Filter>src_glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\tga.c">
+      <Filter>src_glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\thread.c">
+      <Filter>src_glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\time.c">
+      <Filter>src_glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\window.c">
+      <Filter>src_glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\win32\win32_dllmain.c">
+      <Filter>src_glfw\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\win32\win32_enable.c">
+      <Filter>src_glfw\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\win32\win32_fullscreen.c">
+      <Filter>src_glfw\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\win32\win32_glext.c">
+      <Filter>src_glfw\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\win32\win32_init.c">
+      <Filter>src_glfw\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\win32\win32_joystick.c">
+      <Filter>src_glfw\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\win32\win32_thread.c">
+      <Filter>src_glfw\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\win32\win32_time.c">
+      <Filter>src_glfw\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src_glfw\win32\win32_window.c">
+      <Filter>src_glfw\win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glew_LICENSE.txt" />
+    <None Include="glfw_COPYING.txt" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

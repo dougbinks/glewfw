@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9107D7761640107D002325D8 /* boing.c in Sources */ = {isa = PBXBuildFile; fileRef = 9107D7751640107D002325D8 /* boing.c */; };
+		9107D77D1640118F002325D8 /* glewfw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9107D77C1640118F002325D8 /* glewfw.framework */; };
+		9107D77E164011B5002325D8 /* glewfw.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9107D77C1640118F002325D8 /* glewfw.framework */; };
+		9127E22D16401599009AABF2 /* glewfw_example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9127E22C16401599009AABF2 /* glewfw_example-Info.plist */; };
+		91F0B16F163EAFFA008A9856 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F0B16E163EAFFA008A9856 /* Cocoa.framework */; };
+		91F0B191163EB15A008A9856 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F0B190163EB15A008A9856 /* OpenGL.framework */; };
+		91F0B193163EB161008A9856 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F0B192163EB161008A9856 /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91F0B18F163EB09B008A9856 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9107D77E164011B5002325D8 /* glewfw.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9107D7751640107D002325D8 /* boing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = boing.c; sourceTree = "<group>"; };
+		9107D77C1640118F002325D8 /* glewfw.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = glewfw.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/glewfw-dpufyiuwcygyhmaklnhcdgumhtjx/Build/Products/Debug/glewfw.framework"; sourceTree = "<group>"; };
+		9127E22C16401599009AABF2 /* glewfw_example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "glewfw_example-Info.plist"; path = "xcode_resources/glewfw_example-Info.plist"; sourceTree = "<group>"; };
+		91F0B16A163EAFFA008A9856 /* glewfw_example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glewfw_example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F0B16E163EAFFA008A9856 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		91F0B171163EAFFA008A9856 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		91F0B172163EAFFA008A9856 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		91F0B173163EAFFA008A9856 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91F0B190163EB15A008A9856 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		91F0B192163EB161008A9856 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91F0B167163EAFFA008A9856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9107D77D1640118F002325D8 /* glewfw.framework in Frameworks */,
+				91F0B193163EB161008A9856 /* IOKit.framework in Frameworks */,
+				91F0B191163EB15A008A9856 /* OpenGL.framework in Frameworks */,
+				91F0B16F163EAFFA008A9856 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9127E22B1640158A009AABF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9127E22C16401599009AABF2 /* glewfw_example-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91F0B15F163EAFFA008A9856 = {
+			isa = PBXGroup;
+			children = (
+				9127E22B1640158A009AABF2 /* Supporting Files */,
+				9107D7751640107D002325D8 /* boing.c */,
+				91F0B16D163EAFFA008A9856 /* Frameworks */,
+				91F0B16B163EAFFA008A9856 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91F0B16B163EAFFA008A9856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91F0B16A163EAFFA008A9856 /* glewfw_example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91F0B16D163EAFFA008A9856 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9107D77C1640118F002325D8 /* glewfw.framework */,
+				91F0B190163EB15A008A9856 /* OpenGL.framework */,
+				91F0B192163EB161008A9856 /* IOKit.framework */,
+				91F0B16E163EAFFA008A9856 /* Cocoa.framework */,
+				91F0B170163EAFFA008A9856 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91F0B170163EAFFA008A9856 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91F0B171163EAFFA008A9856 /* AppKit.framework */,
+				91F0B172163EAFFA008A9856 /* CoreData.framework */,
+				91F0B173163EAFFA008A9856 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91F0B169163EAFFA008A9856 /* glewfw_example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F0B188163EAFFB008A9856 /* Build configuration list for PBXNativeTarget "glewfw_example" */;
+			buildPhases = (
+				91F0B166163EAFFA008A9856 /* Sources */,
+				91F0B167163EAFFA008A9856 /* Frameworks */,
+				91F0B168163EAFFA008A9856 /* Resources */,
+				91F0B18F163EB09B008A9856 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glewfw_example;
+			productName = glewfw_example;
+			productReference = 91F0B16A163EAFFA008A9856 /* glewfw_example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91F0B161163EAFFA008A9856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Doug Binks";
+			};
+			buildConfigurationList = 91F0B164163EAFFA008A9856 /* Build configuration list for PBXProject "example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91F0B15F163EAFFA008A9856;
+			productRefGroup = 91F0B16B163EAFFA008A9856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91F0B169163EAFFA008A9856 /* glewfw_example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91F0B168163EAFFA008A9856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9127E22D16401599009AABF2 /* glewfw_example-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91F0B166163EAFFA008A9856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9107D7761640107D002325D8 /* boing.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		91F0B186163EAFFB008A9856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		91F0B187163EAFFB008A9856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		91F0B189163EAFFB008A9856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/glewfw-dpufyiuwcygyhmaklnhcdgumhtjx/Build/Products/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = ../include;
+				INFOPLIST_FILE = "xcode_resources/glewfw_example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91F0B18A163EAFFB008A9856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/glewfw-dpufyiuwcygyhmaklnhcdgumhtjx/Build/Products/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = ../include;
+				INFOPLIST_FILE = "xcode_resources/glewfw_example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91F0B164163EAFFA008A9856 /* Build configuration list for PBXProject "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F0B186163EAFFB008A9856 /* Debug */,
+				91F0B187163EAFFB008A9856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F0B188163EAFFB008A9856 /* Build configuration list for PBXNativeTarget "glewfw_example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F0B189163EAFFB008A9856 /* Debug */,
+				91F0B18A163EAFFB008A9856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91F0B161163EAFFA008A9856 /* Project object */;
+}
