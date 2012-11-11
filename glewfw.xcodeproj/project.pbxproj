@@ -10,7 +10,6 @@
 		91D99F07163EA50300C2FA36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D99F06163EA50300C2FA36 /* Cocoa.framework */; };
 		91F0B0DA163EA614008A9856 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F0B0D9163EA614008A9856 /* IOKit.framework */; };
 		91F0B0DC163EA61F008A9856 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F0B0DB163EA61F008A9856 /* OpenGL.framework */; };
-		91F0B119163EA696008A9856 /* glew.c in Sources */ = {isa = PBXBuildFile; fileRef = 91F0B0DE163EA696008A9856 /* glew.c */; };
 		91F0B11C163EA696008A9856 /* cocoa_enable.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F0B0E3163EA696008A9856 /* cocoa_enable.m */; };
 		91F0B11D163EA696008A9856 /* cocoa_fullscreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F0B0E4163EA696008A9856 /* cocoa_fullscreen.m */; };
 		91F0B11E163EA696008A9856 /* cocoa_glext.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F0B0E5163EA696008A9856 /* cocoa_glext.m */; };
@@ -33,10 +32,7 @@
 		91F0B131163EA696008A9856 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 91F0B0F8163EA696008A9856 /* thread.c */; };
 		91F0B132163EA696008A9856 /* time.c in Sources */ = {isa = PBXBuildFile; fileRef = 91F0B0F9163EA696008A9856 /* time.c */; };
 		91F0B144163EA696008A9856 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = 91F0B10C163EA696008A9856 /* window.c */; };
-		91F0B156163EA800008A9856 /* glew.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F0B152163EA800008A9856 /* glew.h */; };
 		91F0B157163EA800008A9856 /* glfw.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F0B153163EA800008A9856 /* glfw.h */; };
-		91F0B158163EA800008A9856 /* glxew.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F0B154163EA800008A9856 /* glxew.h */; };
-		91F0B159163EA800008A9856 /* wglew.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F0B155163EA800008A9856 /* wglew.h */; };
 		91F0B15B163EA81C008A9856 /* glewfw.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F0B15A163EA81C008A9856 /* glewfw.h */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +45,6 @@
 		91D99F0B163EA50300C2FA36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		91F0B0D9163EA614008A9856 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		91F0B0DB163EA61F008A9856 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		91F0B0DE163EA696008A9856 /* glew.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glew.c; sourceTree = "<group>"; };
 		91F0B0E3163EA696008A9856 /* cocoa_enable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cocoa_enable.m; sourceTree = "<group>"; };
 		91F0B0E4163EA696008A9856 /* cocoa_fullscreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cocoa_fullscreen.m; sourceTree = "<group>"; };
 		91F0B0E5163EA696008A9856 /* cocoa_glext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cocoa_glext.m; sourceTree = "<group>"; };
@@ -72,10 +67,7 @@
 		91F0B0F8163EA696008A9856 /* thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thread.c; sourceTree = "<group>"; };
 		91F0B0F9163EA696008A9856 /* time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = time.c; sourceTree = "<group>"; };
 		91F0B10C163EA696008A9856 /* window.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = window.c; sourceTree = "<group>"; };
-		91F0B152163EA800008A9856 /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
 		91F0B153163EA800008A9856 /* glfw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glfw.h; sourceTree = "<group>"; };
-		91F0B154163EA800008A9856 /* glxew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glxew.h; sourceTree = "<group>"; };
-		91F0B155163EA800008A9856 /* wglew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wglew.h; sourceTree = "<group>"; };
 		91F0B15A163EA81C008A9856 /* glewfw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glewfw.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,7 +138,6 @@
 		91F0B0DD163EA696008A9856 /* src_glew */ = {
 			isa = PBXGroup;
 			children = (
-				91F0B0DE163EA696008A9856 /* glew.c */,
 			);
 			path = src_glew;
 			sourceTree = "<group>";
@@ -199,10 +190,7 @@
 		91F0B151163EA800008A9856 /* GL */ = {
 			isa = PBXGroup;
 			children = (
-				91F0B152163EA800008A9856 /* glew.h */,
 				91F0B153163EA800008A9856 /* glfw.h */,
-				91F0B154163EA800008A9856 /* glxew.h */,
-				91F0B155163EA800008A9856 /* wglew.h */,
 				91F0B15A163EA81C008A9856 /* glewfw.h */,
 			);
 			path = GL;
@@ -217,10 +205,7 @@
 			files = (
 				91F0B126163EA696008A9856 /* platform.h in Headers */,
 				91F0B12D163EA696008A9856 /* internal.h in Headers */,
-				91F0B156163EA800008A9856 /* glew.h in Headers */,
 				91F0B157163EA800008A9856 /* glfw.h in Headers */,
-				91F0B158163EA800008A9856 /* glxew.h in Headers */,
-				91F0B159163EA800008A9856 /* wglew.h in Headers */,
 				91F0B15B163EA81C008A9856 /* glewfw.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91F0B119163EA696008A9856 /* glew.c in Sources */,
 				91F0B11C163EA696008A9856 /* cocoa_enable.m in Sources */,
 				91F0B11D163EA696008A9856 /* cocoa_fullscreen.m in Sources */,
 				91F0B11E163EA696008A9856 /* cocoa_glext.m in Sources */,
@@ -372,7 +356,7 @@
 				HEADER_SEARCH_PATHS = ./include;
 				INFOPLIST_FILE = "xcode_resources/glewfw-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx10.8;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -388,7 +372,7 @@
 				HEADER_SEARCH_PATHS = ./include;
 				INFOPLIST_FILE = "xcode_resources/glewfw-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx10.8;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;

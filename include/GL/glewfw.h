@@ -10,7 +10,17 @@
 #ifndef glewfw_glewfw_h
 #define glewfw_glewfw_h
 
-#include <GL/glew.h>
+// OGL 3.2 required, using core profile on mac os x
+#ifndef __APPLE_CC__
+    #include <GL/glew.h>
+#else
+    inline unsigned int glewInit()
+    {
+        return 0;
+    }
+#endif
+#define GLFW_INCLUDE_GL3
+#define GLFW_NO_GLU
 #include <GL/glfw.h>
 
 
