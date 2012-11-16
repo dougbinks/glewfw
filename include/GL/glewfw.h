@@ -18,8 +18,8 @@
     {
         return 0;
     }
-#endif
 #define GLFW_INCLUDE_GL3
+#endif
 #define GLFW_NO_GLU
 #include <GL/glfw.h>
 
