@@ -38,7 +38,7 @@
 *.bak
 
 # Intel VTune Amplifier XE Results
-My Amplifier XE Results - SimpleTest/
+My Amplifier XE Results - */
 
 # igonore CVS folders
 CVS/
