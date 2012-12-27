@@ -25,4 +25,7 @@
 #include <GL/glfw.h>
 
 
+// extensions to glfw
+GLFWAPI void GLFWAPIENTRY  glewfwToggleFullscreen();
+
 #endif

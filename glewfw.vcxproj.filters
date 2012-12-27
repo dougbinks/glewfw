@@ -104,6 +104,7 @@
     <ClCompile Include="src_glfw\win32\win32_window.c">
       <Filter>src_glfw\win32</Filter>
     </ClCompile>
+    <ClCompile Include="glewfw.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="glew_LICENSE.txt" />

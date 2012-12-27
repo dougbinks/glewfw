@@ -156,6 +156,7 @@
     <ClInclude Include="src_glfw\win32\platform.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="glewfw.cpp" />
     <ClCompile Include="src_glew\glew.c" />
     <ClCompile Include="src_glfw\enable.c" />
     <ClCompile Include="src_glfw\fullscreen.c" />
