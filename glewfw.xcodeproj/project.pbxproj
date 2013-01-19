@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91825816168CBE6E00B47619 /* glewfw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91825815168CBE6E00B47619 /* glewfw.cpp */; };
 		91D99F07163EA50300C2FA36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D99F06163EA50300C2FA36 /* Cocoa.framework */; };
 		91F0B0DA163EA614008A9856 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F0B0D9163EA614008A9856 /* IOKit.framework */; };
 		91F0B0DC163EA61F008A9856 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F0B0DB163EA61F008A9856 /* OpenGL.framework */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		9107D78A16401386002325D8 /* glewfw-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "glewfw-Info.plist"; path = "xcode_resources/glewfw-Info.plist"; sourceTree = SOURCE_ROOT; };
+		91825815168CBE6E00B47619 /* glewfw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glewfw.cpp; sourceTree = "<group>"; };
 		91D99F03163EA50300C2FA36 /* glewfw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = glewfw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D99F06163EA50300C2FA36 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		91D99F09163EA50300C2FA36 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -88,6 +90,7 @@
 		91D99EF7163EA50300C2FA36 = {
 			isa = PBXGroup;
 			children = (
+				91825815168CBE6E00B47619 /* glewfw.cpp */,
 				91D99F0D163EA50300C2FA36 /* Supporting Files */,
 				91F0B150163EA800008A9856 /* include */,
 				91F0B0DD163EA696008A9856 /* src_glew */,
@@ -292,6 +295,7 @@
 				91F0B131163EA696008A9856 /* thread.c in Sources */,
 				91F0B132163EA696008A9856 /* time.c in Sources */,
 				91F0B144163EA696008A9856 /* window.c in Sources */,
+				91825816168CBE6E00B47619 /* glewfw.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
