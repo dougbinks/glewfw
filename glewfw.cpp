@@ -50,7 +50,7 @@ GLFWAPI void GLFWAPIENTRY  glewfwToggleFullscreen()
 		SetWindowLong( hwnd, GWL_EXSTYLE, WS_EX_WINDOWEDGE | WS_EX_APPWINDOW );
 			
 		SetWindowPos(
-			hwnd, HWND_TOP,
+			hwnd, HWND_NOTOPMOST,
 			newPos.left,
 			newPos.top,
 			newPos.right - newPos.left,
