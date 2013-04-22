@@ -1,4 +1,4 @@
-This is a simple concatanation of GLEW and GLFW, for which the respective copyrights/licenses are included.
+This is a simple concatenation of GLEW and GLFW, for which the respective copyrights/licenses are included.
 
 Versions:
 
