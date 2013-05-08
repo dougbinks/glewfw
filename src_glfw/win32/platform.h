@@ -388,7 +388,7 @@ GLFWGLOBAL struct {
 
     // Mouse status
     int  MousePosX, MousePosY;
-    int  WheelPos;
+    float  WheelPos;
     char MouseButton[ GLFW_MOUSE_BUTTON_LAST+1 ];
 
     // Keyboard status

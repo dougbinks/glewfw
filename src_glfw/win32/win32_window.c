@@ -669,7 +669,8 @@ static void translateChar( DWORD wParam, DWORD lParam, int action )
 static LRESULT CALLBACK windowProc( HWND hWnd, UINT uMsg,
                                     WPARAM wParam, LPARAM lParam )
 {
-    int wheelDelta, iconified;
+    int iconified;
+    float wheelDelta;
 
     switch( uMsg )
     {
@@ -905,11 +906,11 @@ static LRESULT CALLBACK windowProc( HWND hWnd, UINT uMsg,
             // WM_MOUSEWHEEL is not supported under Windows 95
             if( _glfwLibrary.Sys.winVer != _GLFW_WIN_95 )
             {
-                wheelDelta = (((int)wParam) >> 16) / WHEEL_DELTA;
+                wheelDelta = (float)(((int)wParam) >> 16) / (float)WHEEL_DELTA;
                 _glfwInput.WheelPos += wheelDelta;
                 if( _glfwWin.mouseWheelCallback )
                 {
-                    _glfwWin.mouseWheelCallback( _glfwInput.WheelPos );
+                    _glfwWin.mouseWheelCallback( (int)_glfwInput.WheelPos );
                 }
                 return 0;
             }

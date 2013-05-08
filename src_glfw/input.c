@@ -154,7 +154,7 @@ GLFWAPI int GLFWAPIENTRY glfwGetMouseWheel( void )
     }
 
     // Return mouse wheel position
-    return _glfwInput.WheelPos;
+    return (int)_glfwInput.WheelPos;
 }
 
 
@@ -170,7 +170,7 @@ GLFWAPI void GLFWAPIENTRY glfwSetMouseWheel( int pos )
     }
 
     // Set mouse wheel position
-    _glfwInput.WheelPos = pos;
+    _glfwInput.WheelPos = (float)pos;
 }
 
 
