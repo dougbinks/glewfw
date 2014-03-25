@@ -91,6 +91,8 @@
       <PreprocessorDefinitions>GLEW_BUILD;_GLFW_NO_DLOAD_WINMM;_GLFW_NO_DLOAD_GDI32;GLFW_BUILD_DLL;WIN32;_DEBUG;_WINDOWS;_USRDLL;GLEWFW_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)\include\;$(ProjectDir)\src_glfw;$(ProjectDir)\src_glfw\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAsManaged>false</CompileAsManaged>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -107,6 +109,8 @@
       <PreprocessorDefinitions>GLEW_BUILD;_GLFW_NO_DLOAD_WINMM;_GLFW_NO_DLOAD_GDI32;GLFW_BUILD_DLL;WIN32;_DEBUG;_WINDOWS;_USRDLL;GLEWFW_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)\include\;$(ProjectDir)\src_glfw;$(ProjectDir)\src_glfw\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAsManaged>false</CompileAsManaged>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -125,6 +129,7 @@
       <PreprocessorDefinitions>GLEW_BUILD;_GLFW_NO_DLOAD_WINMM;_GLFW_NO_DLOAD_GDI32;GLFW_BUILD_DLL;WIN32;NDEBUG;_WINDOWS;_USRDLL;GLEWFW_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)\include\;$(ProjectDir)\src_glfw;$(ProjectDir)\src_glfw\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAsManaged>false</CompileAsManaged>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -145,6 +150,7 @@
       <PreprocessorDefinitions>GLEW_BUILD;_GLFW_NO_DLOAD_WINMM;_GLFW_NO_DLOAD_GDI32;GLFW_BUILD_DLL;WIN32;NDEBUG;_WINDOWS;_USRDLL;GLEWFW_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)\include\;$(ProjectDir)\src_glfw;$(ProjectDir)\src_glfw\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAsManaged>false</CompileAsManaged>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
